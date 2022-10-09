@@ -8,9 +8,9 @@ TRISA = 0x1F; // all PORTA is set as input
 do
  {
  //Program to carry out
- PORTB = 0b00000001; // PORTB high
+ PORTB = 0b00000000; // PORTB high
  Delay_ms(500); // 500 milliseconds delay
- PORTB = 0b00000000; // all PORTB off
+ PORTB = 0b00000001; // all PORTB off
  Delay_ms(500);
  PORTB = 0b00000011;
  Delay_ms(500);
